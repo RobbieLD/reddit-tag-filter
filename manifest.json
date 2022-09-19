@@ -1,0 +1,14 @@
+{
+    "name": "tag-filter",
+    "description": "GWA Tag Filter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage"
+    ],
+    "options_page": "options.html",
+    "content_scripts": [{
+        "js":["filter.js"],
+        "matches":["https://www.reddit.com/r/ProgrammerHumor/*"]
+    }]
+}

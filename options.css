@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    margin: 1em;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 0.5em;
+}
+
+.add {
+    border: 0;
+    margin-top: 0.5em;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.add:hover {
+    background-color: rgb(129, 129, 129);
+}
+
+.input {
+    border: 2px solid rgb(129, 129, 129);
+    font-size: 1.2em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    padding: 1em;
+}
+
+.tag {
+    background-color: rgb(224, 224, 224);
+    padding: 0.5em;
+    border-radius: 0.2em
+}
